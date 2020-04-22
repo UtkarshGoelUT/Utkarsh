@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Utkarsh/static/css/main.5a5f748b.chunk.css",
+    "main.js": "/Utkarsh/static/js/main.2baa1f7d.chunk.js",
+    "main.js.map": "/Utkarsh/static/js/main.2baa1f7d.chunk.js.map",
+    "runtime-main.js": "/Utkarsh/static/js/runtime-main.b2a04610.js",
+    "runtime-main.js.map": "/Utkarsh/static/js/runtime-main.b2a04610.js.map",
+    "static/css/2.69121389.chunk.css": "/Utkarsh/static/css/2.69121389.chunk.css",
+    "static/js/2.8940aa31.chunk.js": "/Utkarsh/static/js/2.8940aa31.chunk.js",
+    "static/js/2.8940aa31.chunk.js.map": "/Utkarsh/static/js/2.8940aa31.chunk.js.map",
+    "index.html": "/Utkarsh/index.html",
+    "precache-manifest.4a0647fedf591fb02e76e5bf5c1e9139.js": "/Utkarsh/precache-manifest.4a0647fedf591fb02e76e5bf5c1e9139.js",
+    "service-worker.js": "/Utkarsh/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/Utkarsh/static/css/2.69121389.chunk.css.map",
+    "static/css/main.5a5f748b.chunk.css.map": "/Utkarsh/static/css/main.5a5f748b.chunk.css.map",
+    "static/js/2.8940aa31.chunk.js.LICENSE.txt": "/Utkarsh/static/js/2.8940aa31.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Utkarsh/static/media/yoal-desurmont-jqgsM3B9Fpo-unsplash.41cd15cb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2a04610.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.8940aa31.chunk.js",
+    "static/css/main.5a5f748b.chunk.css",
+    "static/js/main.2baa1f7d.chunk.js"
+  ]
+}
