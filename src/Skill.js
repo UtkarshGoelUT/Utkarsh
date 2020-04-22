@@ -59,6 +59,18 @@ var skill = [
       },
     ],
   },
+  {
+    id: 3,
+    name: "Databases",
+    sub: [
+      {
+        sid: 1,
+        name: "SQL",
+        loc:
+          "https://banner2.cleanpng.com/20180330/zle/kisspng-microsoft-azure-sql-database-microsoft-sql-server-database-5abeaece642720.1956423515224460304102.jpg",
+      },
+    ],
+  },
 ];
 
 export default skill;

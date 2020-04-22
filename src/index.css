@@ -27,6 +27,7 @@ body {
   width: 100%;
   background-color: transparent;
   position: fixed;
+  z-index: 10000;
 }
 
 .change {
@@ -47,7 +48,6 @@ body {
 }
 
 .navlink {
-  padding: 5px 5px;
   color: white;
   align-content: right;
   border-radius: 5px;
@@ -55,6 +55,7 @@ body {
   margin: 5px 5px;
   right: 10px;
   transition: all 1s;
+  margin-top: 0px;
 }
 
 .navlink:hover {
@@ -122,6 +123,7 @@ home-body {
   border-radius: 20px;
   margin-bottom: 70px;
   margin-top: 70px;
+  z-index: 0px;
 }
 
 .img {
