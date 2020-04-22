@@ -12,48 +12,63 @@ import {
 } from "reactstrap";
 import "../index.css";
 
-function Navba() {
-  const isOpen = true;
+class Navba extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-  const toggle = !isOpen;
+  state = {
+    color: "navbar",
+  };
 
-  return (
-    <Navbar className="chl">
-      <NavbarBrand className="brand">
-        <h2>UG</h2>
-      </NavbarBrand>
-      <NavbarToggler onClick={toggle}></NavbarToggler>
-      <Collapse isOpen={isOpen}>
-        <Nav>
+  listenScrollEvent = (e) => {
+    if (window.scrollY > 100) {
+      this.setState({ color: "navbar change" });
+    } else {
+      this.setState({ color: "navbar" });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
+  }
+
+  render() {
+    return (
+      <Navbar className={this.state.color} onScroll={this.handleScroll}>
+        <NavbarBrand>
+          <h1 className="navbrand">UG</h1>
+        </NavbarBrand>
+        <Nav className="navlinks">
           <NavItem>
-            <NavLink href="/" className="hov">
+            <NavLink href="/" className="navlink">
               Home
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/" className="hov">
+            <NavLink href="#edu" className="navlink">
               Education
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/" className="hov">
+            <NavLink href="/" className="navlink">
               Skills
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/" className="hov">
+            <NavLink href="/" className="navlink">
               Achievments
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/" className="hov">
+            <NavLink href="/" className="navlink">
               Contact
             </NavLink>
           </NavItem>
         </Nav>
-      </Collapse>
-    </Navbar>
-  );
+      </Navbar>
+    );
+  }
 }
 
 export default Navba;
