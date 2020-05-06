@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d36705f001a6d5f5f55522c5c352b65f",
+    "revision": "2e5ec4e990d7d60096385c7eff008b9b",
     "url": "/Utkarsh/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Utkarsh/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "c324dae656ccf2aca060",
+    "revision": "37bf94fd42e8a5eb99db",
     "url": "/Utkarsh/static/css/main.4ff4a982.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Utkarsh/static/js/2.ebf06eee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c324dae656ccf2aca060",
-    "url": "/Utkarsh/static/js/main.e5d7eb35.chunk.js"
+    "revision": "37bf94fd42e8a5eb99db",
+    "url": "/Utkarsh/static/js/main.ba90f07e.chunk.js"
   },
   {
     "revision": "5843839d6b2e9e6356fe",
